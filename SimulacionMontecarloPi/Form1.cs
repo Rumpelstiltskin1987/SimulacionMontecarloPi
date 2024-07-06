@@ -48,5 +48,11 @@ namespace SimulacionMontecarloPi
 
             return 4.0 * pointsInsideCircle / numPoints;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            label2.Text = "Aproximación de Pi:";
+        }
     }
 }
